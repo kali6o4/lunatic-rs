@@ -41,9 +41,6 @@ harness = false
 name = "spawning"
 harness = false
 
-[workspace]
-members = ["lunatic-macros", "lunatic-test"]
-
 [package.metadata.docs.rs]
 targets = ["wasm32-wasi"]
 all-features = true
